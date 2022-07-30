@@ -1,0 +1,74 @@
+*¨{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+/* style navbar */
+.navbar{
+  height: 6rem;
+  background-image: url("https://b-static.besthdwallpaper.com/red-and-black-origami-minimalism-low-poly-wallpaper-4000x1333-90193_106.jpg");
+}
+  /* color name personaje */
+  .tpersonaje {
+    color: red;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 10px 0 -5px 0;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    /* background-color:darkgreen; */
+  }
+
+  /* style border card */
+  div.card{
+        border: 3px solid crimson;
+  }
+
+  /* style transform img personaje  */
+  div.card:hover p img{
+    -webkit-transform: scale(1.2);
+    -webkit-transition: all .5s ease-in-out;
+  }
+  /* style transform to card */
+  .card:hover{
+    -webkit-transform: rotate(3deg);
+    -webkit-transition: all .5s ease-in-out;
+  }
+
+  .contenedor-tarjetas{
+  background-image: url("https://wallpaperaccess.com/full/6209164.png");
+}
