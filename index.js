@@ -132,7 +132,7 @@ function buildCharacterCard(fondo, nombre, foto, audio) {
       personajesOrdenados.forEach((personajeOrdenado) => {
         elemento.innerHTML += buildCharacterCard(
           personajeOrdenado.getbackground(),
-          personajeOrdenado.obtenerNombre(),
+          personajeOrdenado.getName(),
           personajeOrdenado.getImage(),
           personajeOrdenado.getAudio()
         )
